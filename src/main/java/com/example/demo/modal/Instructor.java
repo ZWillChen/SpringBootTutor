@@ -14,4 +14,9 @@ public class Instructor {
     private String lastName;
     private String title;
     private String office;
+
+    public void setName(String Name) {
+        this.firstName = Name;
+//        this.lastName = "";
+    }
 }
